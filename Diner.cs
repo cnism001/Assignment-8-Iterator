@@ -52,8 +52,11 @@ namespace Assignment_8_Iterator
         // CreateIterator method from IMenu interface, it returns an enumerator for the menuItems list.
         public IEnumerator<MenuItem> CreateIterator()
         {
-            //explicit cast added to avoid errors with debugger
-            return (IEnumerator<MenuItem>)menuItems.GetEnumerator();
+            //returns MenuItem every iteration until it reaches numberOfItems value
+            for (int i = 0; i < numberOfItems; i++)
+            {
+                yield return menuItems[i];
+            }
         }
     }
 
