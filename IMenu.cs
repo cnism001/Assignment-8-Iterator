@@ -9,7 +9,7 @@ namespace Assignment_8_Iterator
     
     public interface IMenu
     {
-        
+        //IEnumerator iterater over contents of MenuItem collection
         IEnumerator<MenuItem> CreateIterator();
     }
     // Class for an individual items on any of menus.
