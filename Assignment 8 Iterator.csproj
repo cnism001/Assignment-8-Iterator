@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Diner.cs" />
     <Compile Include="IMenu.cs" />
+    <Compile Include="MenuPrinter.cs" />
     <Compile Include="PancakeHouse.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
